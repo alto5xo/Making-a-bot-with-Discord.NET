@@ -18,10 +18,10 @@ public async Task MainAsync()
 {
     _client = new DiscordSocketClient();
 
-    var token = "token";
+    var TOKEN = "token";
 
     _client.Log += Log;
-    await _client.LoginAsync(TokenType.Bot, token);
+    await _client.LoginAsync(TokenType.Bot, TOKEN);
     await _client.StartAsync();
 
     await Task.Delay(-1);
