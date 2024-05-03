@@ -1,3 +1,5 @@
+# Ignore that guide from now on.
+
 # Let's talk about how qualified you should be
 Just be better than me.
 # Requirements
